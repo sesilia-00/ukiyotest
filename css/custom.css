@@ -1,0 +1,208 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.navbar a:hover {
+  background: #bbd6b2;
+  border-radius: 5px;
+  display: block;
+  transform: translateY(5px);
+  cursor: pointer;
+}
+
+.navbar a {
+  transition: all 0.38s ease;
+}
+
+.navbar img {
+  height: 55px;
+  width: 160px;
+  border-radius: 5px;
+}
+
+.navbar {
+  background-color: #ededed;
+}
+
+.bx-wrapper {
+  border: 0px !important;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.pengantar .pendahuluan,
+.rencana,
+.hasil,
+.penutup {
+  position: relative;
+}
+
+.pengantar h1,
+.pendahuluan h1,
+.rencana h1,
+.hasil h1,
+.penutup h1,
+.pustaka h1,
+.lampiran h1,
+.presentasi h1 {
+  font-weight: bold;
+}
+
+.pengantar p,
+.pendahuluan p,
+.rencana p,
+.hasil p,
+.penutup p {
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.pendahuluan h6,
+.rencana h6,
+.hasil h6,
+.penutup h6 {
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.pendahuluan ol,
+.rencana ol,
+.hasil ol,
+.penutup ol {
+  padding-left: 7vh;
+}
+
+.tabel {
+  background: linear-gradient(90deg, #d0efc6, #bbd6b2, #d5dca4);
+}
+
+.tabel h1 {
+  font-weight: bold;
+  color: #46674e;
+  position: relative;
+}
+
+.tabel .card-body {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.tabel .card {
+  border-radius: 18px;
+  transition: all 0.4s ease;
+}
+
+.tabel .card:hover {
+  transform: scale(1.1);
+}
+
+.tabel a {
+  transition: all 0.38s ease;
+}
+
+.tabel a:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.tabel img {
+  border-radius: 15px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.team {
+  position: relative;
+  width: 100%;
+  height: 100hv;
+  background: radial-gradient(#dfe7dc, #5a8d5c);
+  display: flex;
+  flex-direction: column;
+}
+
+.team-content {
+  width: 100%;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  padding-bottom: 50px;
+}
+
+.team-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.team h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.team .box {
+  padding: 15px;
+  background: #bec4a3;
+  border-radius: 15px;
+  transition: all 0.38s ease;
+}
+
+.team .box:hover {
+  transform: translateY(-15px);
+  cursor: pointer;
+}
+.team .box h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.team .box h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #6b6a6d;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.team .icons i {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: all 0.38s ease;
+}
+
+.team .icons i:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 1240px) {
+  .team {
+    width: 100%;
+    height: auto;
+    padding: 90px 5%;
+  }
+  .center h1 {
+    font-size: 3.2rem;
+  }
+}
+
+.button a {
+  transition: all 0.38s ease;
+}
+
+.button a:hover {
+  transform: translateY(10px);
+  cursor: pointer;
+}
